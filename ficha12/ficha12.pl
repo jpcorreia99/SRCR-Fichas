@@ -10,8 +10,6 @@ move(f, g, 2).
 move(g, t, 2).
 move(b, f, 2).
 % esta parte deverá ser a introdução dos múltiplos estados
-move(NodoOrigem,NodoResultado,_):-
-	move(NodoResultado,NodoOrigem,_).
 move(Nodo, ProxNodo):-
 	move(Nodo,ProxNodo,_).
 
